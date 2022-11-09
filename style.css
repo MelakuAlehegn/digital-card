@@ -1,0 +1,167 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    background-color: #23252C;
+    font-family: 'Inter', sans-serif;
+}
+.app{
+    background-color:#1A1B21;
+    max-width: 400px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 0px 0px 20px 20px;
+}
+.image{
+    max-width: 400px;
+    height: 340px;
+    background: url(photo_2022-11-07_22-30-17.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px 10px 0px 0px;
+}
+.info-names{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 21px;
+}
+h1, h2{
+    margin: 0;
+    margin-top: 3px;
+}
+h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+
+}
+h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12.8px;
+    line-height: 15px;
+    text-align: center;
+    color: #F3BF99;
+    margin-bottom: 3px;
+}
+p{
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    color: #F5F5F5;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.buttons{
+    display: flex;
+    justify-content: space-around;
+}
+.email{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 13px 9px 11px;
+    gap: 8px;
+    width: 115px;
+    height: 34px;
+    background: #FFFFFF;
+    border: 1px solid #D1D5DB;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #374151;
+    cursor:grab;
+}
+.email > i {
+    color:#1E1F26;;
+}
+.linkedin{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 13px 9px 11px;
+    gap: 8px;
+    background: #5093E2;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    border: 1px solid #5093E2;
+    width: 115px;
+    height: 34px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    cursor:grab;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    max-width: 247px;
+    align-items: flex-start;
+    margin: auto;
+}
+.about h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #F5F5F5;
+    margin: 0;
+    margin-top: 33px;
+}
+.about p{
+    margin: 0;
+    text-align: justify;
+    word-spacing: 0.3px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    color: #F5F5F5;
+}
+.about .interests{
+    margin-top: 10px;
+}
+.footer {
+    background: #161619;
+    height: 64px;
+    border-radius: 0px 0px 20px 20px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 12px;
+}
+.footer > ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+li{
+    list-style: none;
+    margin-right: 22px;
+    width: 25px;
+    height: 25px;
+    font-size: larger;
+    color: #918E9B;
+}
+a:link { 
+    text-decoration: none; 
+}
